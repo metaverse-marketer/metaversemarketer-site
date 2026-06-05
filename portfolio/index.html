@@ -1,348 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | MetaVerse Marketer</title>
-  <meta name="description" content="Web design and SEO portfolio showcasing WordPress, Shopify, and digital marketing projects for small businesses.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css">
-  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Metaverse Marketer</title>
+<meta name="description" content="Browse our portfolio of 30+ marketing-optimized websites built for businesses across industries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-<header class="site-header" id="siteHeader">
-  <div class="container header-inner">
-    <a href="../index.html" class="nav-logo" aria-label="Home">
-      <span class="logo-mark">MM</span>
-      <span class="logo-text">Metaverse Marketer</span>
-    </a>
-    <nav class="nav-links" id="navLinks">
-      <a href="../services/index.html">Services</a>
-      <a href="../portfolio/index.html">Portfolio</a>
-      <a href="../packages/index.html">Packages</a>
-      <a href="../about/index.html">About</a>
-      <a href="../blog/index.html">Blog</a>
-      <a href="../contact/index.html" class="btn btn-primary btn-sm nav-cta">Book a Call</a>
-    </nav>
-    <button class="nav-toggle" id="navToggle" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
+<header class="site-header" id="site-header">
+<div class="header-inner">
+  <a href="../index.html" class="logo">
+    <span class="logo-monogram">MM</span>
+    <span class="logo-text">Metaverse Marketer</span>
+  </a>
+  <nav class="main-nav" id="main-nav">
+    <a href="../services/index.html">Services</a>
+    <a href="../portfolio/index.html">Portfolio</a>
+    <a href="../packages/index.html">Packages</a>
+    <a href="../about/index.html">About</a>
+    <a href="../blog/index.html">Blog</a>
+  </nav>
+  <a href="../contact/index.html" class="btn btn-primary header-cta">Book a Call</a>
+  <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</div>
 </header>
-
-<section class="page-hero">
-  <div class="container">
-    <h1>Portfolio</h1>
-    <p>Real websites, real results. Here's a selection of projects I've built for businesses across industries.</p>
+<section class="hero hero--light">
+<div class="container">
+  <div class="hero-content">
+    <h1>Our <span class="accent">Portfolio</span></h1>
+    <p class="hero-subtitle">Real websites built for real businesses. Browse 30+ projects across industries.</p>
   </div>
+</div>
 </section>
-
 <section class="section">
-  <div class="container">
-    <div class="portfolio-intro">
-      <h2>My Approach</h2>
-      <p>Every project starts with understanding your business. I don't just build websites &mdash; I create digital assets that drive real results. My focus is on clean design, fast performance, and SEO optimization that brings customers to your door.</p>
-    </div>
+<div class="container">
+  <div class="portfolio-filters">
+    <button class="filter-btn active" data-filter="all">All Projects</button>
+    <button class="filter-btn" data-filter="WordPress">WordPress</button><button class="filter-btn" data-filter="Facebook Ads">Facebook Ads</button><button class="filter-btn" data-filter="Shopify">Shopify</button><button class="filter-btn" data-filter="WordPress/WooCommerce">WordPress/WooCommerce</button>
   </div>
-</section>
-
-<section class="section section-alt">
-  <div class="container">
-    <h2 class="section-title">Featured Projects</h2>
-    <p class="section-subtitle">A closer look at some of my best work.</p>
-    <div class="portfolio-filters">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="WordPress">WordPress</button>
-      <button class="filter-btn" data-filter="Shopify">Shopify</button>
-      <button class="filter-btn" data-filter="Facebook Ads">Ads</button>
-    </div>
-    <div class="portfolio-grid">
+  <div class="portfolio-grid">
+    <div class="portfolio-card" data-category="WordPress" data-industry="Healthcare">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2026/04/Screenshot-2026-04-22-at-9.39.36-PM.png" alt="Arizona Dental Specialists" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Arizona Dental Specialists</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Healthcare</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
       
-      <div class="portfolio-card" data-platform="WordPress" data-industry="Healthcare">
-        <div class="portfolio-card-imgs">
-          <img src="https://metaversemarketer.com/wp-content/uploads/2026/04/Screenshot-2026-04-22-at-9.39.36-PM.png" alt="Arizona Dental Specialists" loading="lazy">
-        </div>
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Healthcare</span>
-          </div>
-          <h3>Arizona Dental Specialists</h3>
+      <div class="portfolio-card__content">
+        <h3>Insurance WordPress Web Design - The Metaverse Marketer Portfolio</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
         </div>
       </div>
-      <div class="portfolio-card" data-platform="Shopify" data-industry="eCommerce">
-        <div class="portfolio-card-imgs">
-          <img src="https://metaversemarketer.com/wp-content/uploads/2022/07/CCV1.png" alt="Hire a Shopify Website Designer - Shopify Design Portfolio" loading="lazy">
-        </div>
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">Shopify</span>
-            <span class="card-tag">eCommerce</span>
-          </div>
-          <h3>Hire a Shopify Website Designer - Shopify Design Portfolio</h3>
-        </div>
-      </div>
-      <div class="portfolio-card" data-platform="WordPress" data-industry="Coaching">
-        <div class="portfolio-card-imgs">
-          <img src="https://metaversemarketer.com/wp-content/uploads/2023/02/CM1.png" alt="Coach Munson - Personal Brand Website Design" loading="lazy">
-        </div>
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Coaching</span>
-          </div>
-          <h3>Coach Munson - Personal Brand Website Design</h3>
-        </div>
-      </div>
-      <div class="portfolio-card" data-platform="WordPress" data-industry="Coaching">
-        <div class="portfolio-card-imgs">
-          <img src="https://metaversemarketer.com/wp-content/uploads/2022/06/Screenshot-2022-06-11-105614.png" alt="s | Neuroscience Coaching Websites" loading="lazy">
-        </div>
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Coaching</span>
-          </div>
-          <h3>s | Neuroscience Coaching Websites</h3>
-        </div>
-      </div>
-      <div class="portfolio-card" data-platform="WordPress" data-industry="Tech">
-        <div class="portfolio-card-imgs">
-          <img src="https://metaversemarketer.com/wp-content/uploads/2022/07/Screenshot-2022-07-29-132500.png" alt="Build Unique Wordpress Sites" loading="lazy">
-        </div>
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Tech</span>
-          </div>
-          <h3>Build Unique Wordpress Sites</h3>
-        </div>
-      </div>
-      <div class="portfolio-card" data-platform="WordPress" data-industry="Healthcare">
-        <div class="portfolio-card-imgs">
-          <img src="https://metaversemarketer.com/wp-content/uploads/2026/04/Screenshot-2026-04-22-at-9.44.24-PM.png" alt="Imagine Dental Arizona" loading="lazy">
-        </div>
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Healthcare</span>
-          </div>
-          <h3>Imagine Dental Arizona</h3>
-        </div>
-      </div>
-      <div class="portfolio-card" data-platform="WordPress" data-industry="Construction">
-        <div class="portfolio-card-imgs">
-          <img src="https://metaversemarketer.com/wp-content/uploads/2022/06/Screenshot-2022-06-03-182708-1001x1024.png" alt="Construction" loading="lazy">
-        </div>
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Construction</span>
-          </div>
-          <h3>Construction</h3>
-        </div>
-      </div>
-      <div class="portfolio-card" data-platform="WordPress" data-industry="Lifestyle">
-        <div class="portfolio-card-imgs">
-          <img src="https://metaversemarketer.com/wp-content/uploads/2022/06/Screenshot-2022-06-11-113259-1024x576.png" alt="Hire a Cooking Website Designer Portfolio" loading="lazy">
-        </div>
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Lifestyle</span>
-          </div>
-          <h3>Hire a Cooking Website Designer Portfolio</h3>
-        </div>
-      </div>
-      <div class="portfolio-card" data-platform="WordPress" data-industry="Construction">
-        <div class="portfolio-card-imgs">
-          <img src="https://metaversemarketer.com/wp-content/uploads/2023/09/Screenshot-2023-09-26-at-10.39.56-AM.png" alt="Marble Builders" loading="lazy">
-        </div>
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Construction</span>
-          </div>
-          <h3>Marble Builders</h3>
-        </div>
-      </div>
-      <div class="portfolio-card" data-platform="WordPress" data-industry="">
-        <div class="portfolio-card-imgs">
-          <img src="https://metaversemarketer.com/wp-content/uploads/2026/04/Screenshot-2026-04-22-at-9.49.40-PM-1.png" alt="My Body After Baby" loading="lazy">
-        </div>
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            
-          </div>
-          <h3>My Body After Baby</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2 class="section-title">More Projects</h2>
-    <div class="portfolio-grid portfolio-grid-sm">
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
       
-      <div class="portfolio-card portfolio-card-sm" data-platform="WordPress" data-industry="Finance">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Finance</span>
-          </div>
-          <h3>Insurance WordPress Web Design - The Metaverse Marketer</h3>
+      <div class="portfolio-card__content">
+        <h3>Catching Energy</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="WordPress" data-industry="">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            
-          </div>
-          <h3>Catching Energy</h3>
+    </div><div class="portfolio-card" data-category="Shopify" data-industry="Retail">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2022/07/CCV1.png" alt="Hire a Shopify Website Designer - Shopify Design Portfolio" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Hire a Shopify Website Designer - Shopify Design Portfolio</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">Shopify</span>
+          <span class="tag">Retail</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="Shopify" data-industry="eCommerce">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">Shopify</span>
-            <span class="card-tag">eCommerce</span>
-          </div>
-          <h3>Hire a Shopify Website Designer Portfolio</h3>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Personal Brand">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2023/02/CM1.png" alt="Coach Munson - Personal Brand Website Design Portfolio" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Coach Munson - Personal Brand Website Design Portfolio</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Personal Brand</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="WordPress" data-industry="Consulting">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Consulting</span>
-          </div>
-          <h3>emme Solutions</h3>
+    </div><div class="portfolio-card" data-category="WordPress/WooCommerce" data-industry="Coaching">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2022/06/Screenshot-2022-06-11-105614.png" alt="WordPress Design Examples | Neuroscience Coaching Websites" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>WordPress Design Examples | Neuroscience Coaching Websites</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress/WooCommerce</span>
+          <span class="tag">Coaching</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="Shopify" data-industry="eCommerce">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">Shopify</span>
-            <span class="card-tag">eCommerce</span>
-          </div>
-          <h3>View My</h3>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      
+      <div class="portfolio-card__content">
+        <h3>Hire a Shopify Website Designer Portfolio</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="WordPress" data-industry="Finance">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Finance</span>
-          </div>
-          <h3>The Metaverse Marketer</h3>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      
+      <div class="portfolio-card__content">
+        <h3>emme Solutions</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="WordPress" data-industry="Real Estate">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Real Estate</span>
-          </div>
-          <h3>Hampton Home Loans</h3>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      
+      <div class="portfolio-card__content">
+        <h3>Hire a Shopify Website Designer - View My Portfolio</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="WordPress" data-industry="Lifestyle">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Lifestyle</span>
-          </div>
-          <h3>Hugg a Planet</h3>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      
+      <div class="portfolio-card__content">
+        <h3>Hire a WordPress Web Designer| The Metaverse Marketer Portfolio</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="WordPress" data-industry="Other">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Other</span>
-          </div>
-          <h3>Authors - Author</h3>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      
+      <div class="portfolio-card__content">
+        <h3>Hampton Home Loans</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="WordPress" data-industry="Other">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">WordPress</span>
-            <span class="card-tag">Other</span>
-          </div>
-          <h3>NonProfit</h3>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      
+      <div class="portfolio-card__content">
+        <h3>Hugg a Planet</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="Shopify" data-industry="eCommerce">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">Shopify</span>
-            <span class="card-tag">eCommerce</span>
-          </div>
-          <h3>View My</h3>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Consulting">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2022/07/Screenshot-2022-07-29-132500.png" alt="Build Unique Wordpress Sites" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Build Unique Wordpress Sites</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Consulting</span>
         </div>
       </div>
-      <div class="portfolio-card portfolio-card-sm" data-platform="Shopify" data-industry="eCommerce">
-        <div class="portfolio-card-body">
-          <div class="portfolio-tags">
-            <span class="card-tag">Shopify</span>
-            <span class="card-tag">eCommerce</span>
-          </div>
-          <h3>The Kings Store Shopify</h3>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Healthcare">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2026/04/Screenshot-2026-04-22-at-9.44.24-PM.png" alt="Imagine Dental Arizona" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Imagine Dental Arizona</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Healthcare</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      
+      <div class="portfolio-card__content">
+        <h3>Hire a WordPress Website Designer for Authors - Author Portfolio Piece</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Construction">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2022/06/Screenshot-2022-06-03-182708-1001x1024.png" alt="Hire a Web Designer for Construction Portfolio" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Hire a Web Designer for Construction Portfolio</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Construction</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Personal Brand">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2022/06/Screenshot-2022-06-11-113259-1024x576.png" alt="Hire a Cooking Website Designer Portfolio" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Hire a Cooking Website Designer Portfolio</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Personal Brand</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2023/09/Screenshot-2023-09-26-at-10.39.56-AM.png" alt="Marble Builders" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Marble Builders</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      
+      <div class="portfolio-card__content">
+        <h3>Hire a WordPress Website Designer - NonProfit Portfolio Piece</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2026/04/Screenshot-2026-04-22-at-9.49.40-PM-1.png" alt="My Body After Baby" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>My Body After Baby</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2023/02/im-looking-to....png" alt="NewFi" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>NewFi</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Energy">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2023/07/PSA1.png" alt="Powerstream USA - Local Business WordPress Design" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Powerstream USA - Local Business WordPress Design</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Energy</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="SaaS/Tech">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2026/04/Screenshot-2026-04-22-at-9.28.10-PM.png" alt="REDX Web Designer" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>REDX Web Designer</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">SaaS/Tech</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2023/11/all-devices-black.png" alt="RRPAC" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>RRPAC</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="Shopify" data-industry="Crafts">
+      
+      <div class="portfolio-card__content">
+        <h3>Hire a Shopify Website Designer - View My Portfolio</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">Shopify</span>
+          <span class="tag">Crafts</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      
+      <div class="portfolio-card__content">
+        <h3>The Kings Store Shopify Portfolio</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Healthcare">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2023/06/PHS1.png" alt="The Pain Healing Center" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>The Pain Healing Center</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Healthcare</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2023/06/TIO2.png" alt="Top It Off Wholesale" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Top It Off Wholesale</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="WordPress" data-industry="Other">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2023/06/TP1.png" alt="Transparent Partners" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Transparent Partners</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Other</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="Facebook Ads" data-industry="Retail">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2024/05/Screenshot-2024-05-29-at-5.15.58 PM.png" alt="Twelve Timbers - Facebook Ads" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Twelve Timbers - Facebook Ads</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">Facebook Ads</span>
+          <span class="tag">Retail</span>
+        </div>
+      </div>
+    </div><div class="portfolio-card" data-category="Shopify" data-industry="Food & Beverage">
+      <div class="portfolio-card__image"><img src="https://metaversemarketer.com/wp-content/uploads/2023/02/Screenshot-2023-02-10-220144.png" alt="Val's Cookies - Shopify Website Design Shopify Portfolio Piece - Hire Shopify Designer" loading="lazy"></div>
+      <div class="portfolio-card__content">
+        <h3>Val's Cookies - Shopify Website Design Shopify Portfolio Piece - Hire Shopify Designer</h3>
+        <div class="portfolio-card__tags">
+          <span class="tag">Shopify</span>
+          <span class="tag">Food & Beverage</span>
         </div>
       </div>
     </div>
   </div>
+</div>
 </section>
-
-<section class="cta-section">
-  <div class="container">
-    <h2>Your Project Could Be Next</h2>
-    <p>Let's build something great together. Book a free strategy call to discuss your project.</p>
-    <a href="../contact/index.html" class="btn btn-lg">Start Your Project &rarr;</a>
+<section class="stats-bar">
+<div class="container">
+  <div class="stats-grid">
+    <div class="stat">
+      <span class="stat__number">125+</span>
+      <span class="stat__label">Websites Built</span>
+    </div><div class="stat">
+      <span class="stat__number">20+</span>
+      <span class="stat__label">Recurring Clients</span>
+    </div><div class="stat">
+      <span class="stat__number">45</span>
+      <span class="stat__label">Day Avg Turnaround</span>
+    </div><div class="stat">
+      <span class="stat__number">31</span>
+      <span class="stat__label">Portfolio Projects</span>
+    </div>
   </div>
+</div>
 </section>
-
+<section class="section cta-section">
+<div class="container">
+  <div class="cta-content">
+    <h2>Want Results Like These for Your Business?</h2>
+    <ul class="cta-bullets">
+      <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c4622d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Free 30-minute discovery call</li><li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c4622d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Personalized strategy recommendations</li><li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c4622d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> No obligation, no pressure</li>
+    </ul>
+    <a href="https://calendly.com/metapv/discovery-call-w-preston" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Book Your Free Call</a>
+  </div>
+</div>
+</section>
 <footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-col">
-        <h4>MetaVerse Marketer</h4>
-        <p>Web design &amp; SEO for small businesses that want to grow. Based in Utah, serving clients nationwide.</p>
-        <p><a href="mailto:preston@metaversemarketer.com">preston@metaversemarketer.com</a></p>
-        <p><a href="tel:+13852239920">(385) 223-9920</a></p>
-      </div>
-      <div class="footer-col">
-        <h4>Services</h4>
-        <ul>
-          <li><a href="../services/web-design.html">Web Design</a></li>
-          <li><a href="../services/seo-strategy.html">SEO Strategy</a></li>
-          <li><a href="../services/b2b-lead-generation.html">B2B Lead Generation</a></li>
-          <li><a href="../packages/index.html">Packages</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Resources</h4>
-        <ul>
-          <li><a href="../blog/index.html">Blog</a></li>
-          <li><a href="../portfolio/index.html">Portfolio</a></li>
-          <li><a href="../about/index.html">About Preston</a></li>
-          <li><a href="../contact/index.html">Contact</a></li>
-        </ul>
+<div class="container">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="../index.html" class="logo">
+        <span class="logo-monogram">MM</span>
+        <span class="logo-text">Metaverse Marketer</span>
+      </a>
+      <p>Marketing Optimized Web Design by Preston Vawdrey</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/preston-vawdrey/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:preston@metaversemarketer.com" aria-label="Email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+        <a href="tel:+13857224497" aria-label="Phone">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        </a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2024&ndash;2026 MetaVerse Marketer. All rights reserved.</p>
+    <div class="footer-links">
+      <h4>Services</h4>
+      <a href="../services/web-design.html">Web Design</a>
+      <a href="../services/seo-strategy.html">SEO Strategy</a>
+      <a href="../services/b2b-lead-generation.html">B2B Lead Generation</a>
+      <a href="../packages/index.html">Packages</a>
+    </div>
+    <div class="footer-links">
+      <h4>Company</h4>
+      <a href="../about/index.html">About</a>
+      <a href="../portfolio/index.html">Portfolio</a>
+      <a href="../blog/index.html">Blog</a>
+      <a href="../contact/index.html">Contact</a>
+    </div>
+    <div class="footer-cta-col">
+      <h4>Ready to Start?</h4>
+      <p>Book a free discovery call and let's talk about your project.</p>
+      <a href="https://calendly.com/metapv/discovery-call-w-preston" class="btn btn-primary" target="_blank" rel="noopener">Book a Call</a>
     </div>
   </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 The Metaverse Marketer. All rights reserved.</p>
+  </div>
+</div>
 </footer>
-<script src="../js/main.js"></script>
+<script>
+// Sticky header shadow
+const h = document.getElementById('site-header');
+window.addEventListener('scroll', () => h.classList.toggle('scrolled', window.scrollY > 10));
+// Mobile menu
+const t = document.getElementById('mobile-toggle');
+const n = document.getElementById('main-nav');
+t.addEventListener('click', () => { t.classList.toggle('open'); n.classList.toggle('open'); });
+</script>
 </body>
-</html>
+<script>
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.filter;
+    document.querySelectorAll('.portfolio-card').forEach(card => {
+      card.style.display = (f === 'all' || card.dataset.category === f || card.dataset.industry === f) ? '' : 'none';
+    });
+  });
+});
+</script>
