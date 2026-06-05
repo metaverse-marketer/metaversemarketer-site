@@ -389,3 +389,36 @@ a:hover { color: var(--accent-hover); }
   .blog-post__header h1 { font-size: 28px; }
   .blog-post__content { font-size: 16px; }
 }
+/* Image Placeholder */
+.img-placeholder {
+  background: var(--bg-surface-2);
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  font-weight: 500;
+  min-height: 200px;
+  text-align: center;
+  padding: 24px;
+}
+.img-placeholder--hero {
+  min-height: 320px;
+  font-size: 1rem;
+}
+.img-placeholder--card {
+  min-height: 180px;
+  border-radius: 8px 8px 0 0;
+}
+.img-placeholder--wide {
+  min-height: 240px;
+}
+.img-placeholder svg {
+  margin-bottom: 8px;
+  opacity: 0.4;
+}
+.img-placeholder span {
+  display: block;
+}
