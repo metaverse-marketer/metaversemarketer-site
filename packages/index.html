@@ -1,121 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Packages &amp; Pricing | MetaVerse Marketer</title>
-    <meta name="description" content="Transparent pricing for web design and SEO services. Starter, Professional, and Growth packages for small businesses.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Design Packages | MetaVerse Marketer</title>
+  <meta name="description" content="Affordable web design packages for small businesses. One-time builds starting at $499, monthly support from $199/mo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  
 </head>
 <body>
-    <header class="site-header">
-    <nav class="main-nav">
-        <a href="../index.html" class="nav-logo">MetaVerse Marketer</a>
-        <button class="nav-toggle" aria-label="Menu">☰</button>
-        <div class="nav-links">
-            <a href="../services/index.html">Services</a>
-            <a href="../portfolio/index.html">Portfolio</a>
-            <a href="../packages/index.html">Packages</a>
-            <a href="../about/index.html">About</a>
-            <a href="../blog/index.html">Blog</a>
-            <a href="../contact/index.html" class="btn btn-primary btn-sm">Book a Call</a>
-        </div>
-    </nav></header>
-    
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="../index.html" class="nav-logo" aria-label="Home">
+      <span class="logo-mark">MM</span>
+      <span class="logo-text">Metaverse Marketer</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../services/index.html">Services</a>
+      <a href="../portfolio/index.html">Portfolio</a>
+      <a href="../packages/index.html">Packages</a>
+      <a href="../about/index.html">About</a>
+      <a href="../blog/index.html">Blog</a>
+      <a href="../contact/index.html" class="btn btn-primary btn-sm nav-cta">Book a Call</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
 <section class="page-hero">
-    <div class="container">
-        <h1>Packages &amp; Pricing</h1>
-        <p>Transparent pricing for small businesses. No hidden fees, no surprises.</p>
-    </div>
+  <div class="container">
+    <h1>Web Design Packages</h1>
+    <p>Transparent pricing for small businesses. Choose the package that fits your needs and budget.</p>
+  </div>
 </section>
+
 <section class="section">
-    <div class="container">
-        <div class="pricing-grid">
-            <div class="pricing-card">
-                <div class="pricing-name">Starter</div>
-                <div class="pricing-price">$1,500</div>
-                <div class="pricing-period">one-time</div>
-                <ul class="pricing-features">
-                    <li>5-page custom WordPress website</li>
-                    <li>Mobile responsive design</li>
-                    <li>Basic SEO setup</li>
-                    <li>Contact form integration</li>
-                    <li>1 round of revisions</li>
-                    <li>2-week turnaround</li>
-                </ul>
-                <a href="../contact/index.html" class="btn btn-outline">Get Started</a>
-            </div>
-            <div class="pricing-card featured">
-                <div class="pricing-name" style="color:var(--accent);">Professional</div>
-                <div class="pricing-price">$3,500</div>
-                <div class="pricing-period">one-time + monthly SEO option</div>
-                <ul class="pricing-features">
-                    <li>Up to 10 pages</li>
-                    <li>Custom design, not a template</li>
-                    <li>Full SEO optimization</li>
-                    <li>Blog setup + 3 starter posts</li>
-                    <li>Google Analytics &amp; Search Console</li>
-                    <li>Speed optimization</li>
-                    <li>3 rounds of revisions</li>
-                    <li>4-week turnaround</li>
-                </ul>
-                <a href="../contact/index.html" class="btn btn-primary">Most Popular</a>
-            </div>
-            <div class="pricing-card">
-                <div class="pricing-name">Growth</div>
-                <div class="pricing-price">$750/mo</div>
-                <div class="pricing-period">ongoing SEO &amp; marketing</div>
-                <ul class="pricing-features">
-                    <li>Monthly SEO campaign</li>
-                    <li>Blog content (2 posts/month)</li>
-                    <li>Keyword tracking &amp; reporting</li>
-                    <li>Google Business Profile optimization</li>
-                    <li>On-page optimization updates</li>
-                    <li>Monthly strategy call</li>
-                </ul>
-                <a href="../contact/index.html" class="btn btn-outline">Get Started</a>
-            </div>
-        </div>
-        <p class="text-center mt-4" style="color:var(--text-muted);">Need something custom? <a href="../contact/index.html">Let's talk</a> about your specific needs.</p>
+  <div class="container">
+    <h2 class="section-title">One-Time Website Builds</h2>
+    <p class="section-subtitle">Get a professional website launched, no ongoing commitment required.</p>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-badge">Starter</div>
+        <div class="pricing-price">$499</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-features">
+          <li>Up to 5 pages</li>
+          <li>Contact forms</li>
+          <li>WordPress build</li>
+          <li>Speed optimization</li>
+          <li>3 draft review calls</li>
+          <li>Mobile-responsive design</li>
+        </ul>
+        <a href="../contact/index.html" class="btn btn-outline" style="width:100%;justify-content:center;">Get Started</a>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-badge">Standard</div>
+        <div class="pricing-price">$999</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-features">
+          <li>Up to 10 pages</li>
+          <li>Everything in Starter</li>
+          <li>SEO optimization</li>
+          <li>4 draft review calls</li>
+          <li>Chat widget</li>
+          <li>Mobile optimization</li>
+        </ul>
+        <a href="../contact/index.html" class="btn btn-primary" style="width:100%;justify-content:center;">Get Started</a>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-badge">Enterprise</div>
+        <div class="pricing-price">Custom</div>
+        <div class="pricing-period">contact for quote</div>
+        <ul class="pricing-features">
+          <li>Up to 20 pages</li>
+          <li>Built-in SEO</li>
+          <li>Data-backed site structuring</li>
+          <li>Up to 6 draft reviews</li>
+          <li>Chat widget</li>
+          <li>Free hosting consultation</li>
+          <li>Branding assistance</li>
+          <li>3 months design support</li>
+        </ul>
+        <a href="../contact/index.html" class="btn btn-outline" style="width:100%;justify-content:center;">Contact Me</a>
+      </div>
     </div>
+  </div>
 </section>
-    
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>MetaVerse Marketer</h4>
-                    <p>Web design &amp; SEO for small businesses that want to grow. Based in Utah, serving clients nationwide.</p>
-                    <p><a href="mailto:preston@metaversemarketer.com">preston@metaversemarketer.com</a></p>
-                    <p><a href="tel:+13857224497">(385) 722-4497</a></p>
-                </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="../services/web-design.html">Web Design</a></li>
-                        <li><a href="../services/seo-strategy.html">SEO Strategy</a></li>
-                        <li><a href="../services/b2b-lead-generation.html">B2B Lead Generation</a></li>
-                        <li><a href="../packages/index.html">Packages</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="../blog/index.html">Blog</a></li>
-                        <li><a href="../portfolio/index.html">Portfolio</a></li>
-                        <li><a href="../about/index.html">About Preston</a></li>
-                        <li><a href="../contact/index.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024–2026 MetaVerse Marketer. All rights reserved.</p>
-            </div>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Monthly Packages</h2>
+    <p class="section-subtitle">Ongoing web design support, SEO optimization, and strategic guidance.</p>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-badge">Starter Monthly</div>
+        <div class="pricing-price">$199</div>
+        <div class="pricing-period">/month</div>
+        <ul class="pricing-features">
+          <li>3 hours/month design support</li>
+          <li>Strategy calls</li>
+          <li>Landing page design</li>
+          <li>B2B web design strategy</li>
+          <li>Analytics review</li>
+          <li>Optional monthly blog post</li>
+        </ul>
+        <a href="../contact/index.html" class="btn btn-outline" style="width:100%;justify-content:center;">Get Started</a>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-badge">Premium Monthly</div>
+        <div class="pricing-price">$499</div>
+        <div class="pricing-period">/month</div>
+        <ul class="pricing-features">
+          <li>10 hours/month design support</li>
+          <li>Everything in Starter</li>
+          <li>Hosting review</li>
+          <li>Site speed testing</li>
+          <li>Premium SEO data access</li>
+          <li>(Valued at $125/month)</li>
+        </ul>
+        <a href="../contact/index.html" class="btn btn-primary" style="width:100%;justify-content:center;">Get Started</a>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-badge">Enterprise Monthly</div>
+        <div class="pricing-price">Custom</div>
+        <div class="pricing-period">contact for quote</div>
+        <ul class="pricing-features">
+          <li>Up to 20 hours/month</li>
+          <li>Everything in Premium</li>
+          <li>CRM setup &amp; integration</li>
+          <li>CRM automation &amp; lead gen</li>
+          <li>2 blog posts per month</li>
+        </ul>
+        <a href="../contact/index.html" class="btn btn-outline" style="width:100%;justify-content:center;">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">What's Included in Every Package</h2>
+    <div class="card-grid" style="max-width:900px;margin:0 auto;">
+      <div class="card" style="cursor:default">
+        <div class="card-body text-center">
+          <h3>📱 Mobile-Responsive</h3>
+          <p>Every site looks great on phones, tablets, and desktops.</p>
         </div>
-    </footer>
-    <script src="../js/main.js"></script>
+      </div>
+      <div class="card" style="cursor:default">
+        <div class="card-body text-center">
+          <h3>⚡ Fast Loading</h3>
+          <p>Optimized for speed because slow sites lose customers.</p>
+        </div>
+      </div>
+      <div class="card" style="cursor:default">
+        <div class="card-body text-center">
+          <h3>🔍 SEO-Ready</h3>
+          <p>Built with search engine best practices from day one.</p>
+        </div>
+      </div>
+      <div class="card" style="cursor:default">
+        <div class="card-body text-center">
+          <h3>💬 Direct Access</h3>
+          <p>You work with me directly. Text, call, or email anytime.</p>
+        </div>
+      </div>
+    </div>
+    <div class="trust-signals text-center mt-4">
+      <div class="trust-stat"><strong>125+</strong> websites built</div>
+      <div class="trust-stat"><strong>20+</strong> recurring clients</div>
+      <div class="trust-stat"><strong>5+</strong> years experience</div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Pricing FAQ</h2>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <h3>What's the difference between one-time and monthly?</h3>
+        <p>One-time packages are for building or redesigning your website. Monthly packages are for ongoing support, updates, SEO, and strategic guidance. Many clients start with a one-time build and then move to a monthly plan.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can I switch plans later?</h3>
+        <p>Absolutely. You can upgrade, downgrade, or cancel monthly plans at any time. No long-term contracts.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do you offer refunds?</h3>
+        <p>If you're not satisfied with the work, I'll make it right. I offer revision rounds on all packages so you're happy with the final result before launch.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What if I need something not listed?</h3>
+        <p>Let's talk. I offer custom packages for businesses with unique needs. Book a free call and I'll put together a plan that works for you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Not Sure Which Package Is Right?</h2>
+    <p>Book a free strategy call and I'll help you figure out exactly what you need.</p>
+    <a href="../contact/index.html" class="btn btn-lg">Book a Free Call &rarr;</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>MetaVerse Marketer</h4>
+        <p>Web design &amp; SEO for small businesses that want to grow. Based in Utah, serving clients nationwide.</p>
+        <p><a href="mailto:preston@metaversemarketer.com">preston@metaversemarketer.com</a></p>
+        <p><a href="tel:+13852239920">(385) 223-9920</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="../services/web-design.html">Web Design</a></li>
+          <li><a href="../services/seo-strategy.html">SEO Strategy</a></li>
+          <li><a href="../services/b2b-lead-generation.html">B2B Lead Generation</a></li>
+          <li><a href="../packages/index.html">Packages</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="../portfolio/index.html">Portfolio</a></li>
+          <li><a href="../about/index.html">About Preston</a></li>
+          <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024&ndash;2026 MetaVerse Marketer. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/main.js"></script>
 </body>
 </html>
