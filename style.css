@@ -422,26 +422,3 @@ a:hover { color: var(--accent-hover); }
 .img-placeholder span {
   display: block;
 }
-
-/* Utah Landscape Images */
-.section-image img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-}
-.section-image {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 0 0 32px;
-}
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
-  align-items: start;
-}
-@media (max-width: 768px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-}
